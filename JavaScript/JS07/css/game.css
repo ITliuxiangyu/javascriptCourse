@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 400px;
+    height: 600px;
+    border: 2px solid gold;
+    margin: 100px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 20px;
+}
+
+.up {
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#question {
+    font-size: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 50px;
+}
+

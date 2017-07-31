@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 2px groove blue;
+    margin: 100px auto 0;
+    overflow: hidden;
+}
+
+#content {
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    /*transition: 1s linear;*/
+    left: 0;
+}
+
+#content>img {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+button {
+    width: 50px;
+    height: 35px;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 20px;
+}
